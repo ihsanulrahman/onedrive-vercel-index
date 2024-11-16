@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icons/128.png',
+  icon: '/icons/drive.png',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
@@ -38,14 +38,14 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Copyright © 2022-<script>document.write( new Date().getFullYear() );</script> Powered by <a href="https://github.com/spencerwooo/onedrive-vercel-index" target="_blank" rel="noopener noreferrer">onedrive-vercel-index</a> & Made by <a href=\"https://kong.pub\" target=\"_blank\" rel=\"noopener noreferrer\">Wayne</a>',
+    'Copyright © 2022-<script>document.write( new Date().getFullYear() );</script> Powered by <a href="https://github.com/ihsanulrahman/onedrive-vercel-index" target="_blank" rel="noopener noreferrer">onedrive-vercel-index</a> & Made by <a href=\"https://github.com/ihsanulrahman\" target=\"_blank\" rel=\"noopener noreferrer\">iHSAN/a>',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/影视/加密', '/文件/加密', '/书籍/加密'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:',
+  email: 'mailto:ihsanulrahman@gmail.com',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
